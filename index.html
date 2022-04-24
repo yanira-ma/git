@@ -4,12 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d1363a0975.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
     <title>Curso Git - Crehana</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
-    
+    <header>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-auto">
+                    <h1>Curso Git</h1>
+                </div>
+                <div class="col-auto">
+                    <div class="avatar-container" data-toggle="modal" data-target="#profileOptions">
+                        <img src="img/avatar.jpg" alt="">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="profileOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Opciones</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="profile-options-list">
+                        <li><a href="#"><i class="fas fa-user"></i>Mi perfil</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i>Mis direcciones</a></li>
+                        <li><a href="#"><i class="fas fa-credit-card"></i>Mis tarjetas</a></li>
+                        <li><a href="#" class="text-danger"><i class="fas fa-times-circle"></i>Cerrar</a></li>
+                        
+                    </ul>
+                </div>                
+            </div>
+            </div>
+        </div>
+    </header>
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
