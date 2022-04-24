@@ -10750,7 +10750,7 @@ img {
   max-width: 100%;
 }
 
-a :hover {
+a:hover, .btn-link:hover {
   text-decoration: none;
 }
 
@@ -10800,9 +10800,6 @@ header .profile-options-modal .profile-options-list li a {
   display: block;
   padding: 10px 0;
   color: #495057;
-}
-header .profile-options-modal .profile-options-list li a :hover {
-  text-decoration: none;
 }
 header .profile-options-modal .profile-options-list li a i {
   display: inline-block;

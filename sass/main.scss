@@ -16,8 +16,8 @@ img{
     max-width: 100%;
 }
 
-a{
-    :hover{
+a, .btn-link{
+    &:hover{
         text-decoration: none;
     }
 }
@@ -73,10 +73,6 @@ header{
                     display: block;
                     padding: 10px 0;
                     color: $black2;
-
-                    :hover{
-                        text-decoration: none;
-                    }
 
                     i{
                         display: inline-block;
